@@ -1,0 +1,30 @@
+name: Atualizar notícias
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # a cada hora
+  workflow_dispatch:        # botão "Run workflow" para atualizar na hora
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Buscar feeds
+        run: node scripts/atualizar.mjs
+      - name: Salvar se mudou
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add news.json
+          git diff --cached --quiet || (git commit -m "Notícias atualizadas" && git push)

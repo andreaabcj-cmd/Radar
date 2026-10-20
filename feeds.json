@@ -1,0 +1,178 @@
+{
+  "_comoUsar": "Para adicionar um site, copie uma linha e troque o nome e o endereço do RSS. Temas válidos: ia, games, tec, mundo, brasil, economia, ciencia, esportes, cultura.",
+  "feeds": [
+    {
+      "cat": "ia",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+    },
+    {
+      "cat": "ia",
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    },
+    {
+      "cat": "ia",
+      "name": "Olhar Digital",
+      "url": "https://olhardigital.com.br/feed/",
+      "filter": "IA|inteligência artificial|ChatGPT|OpenAI|Claude|Anthropic|Gemini|LLM|Copilot|DeepSeek|robô"
+    },
+    {
+      "cat": "ia",
+      "name": "Tecmundo",
+      "url": "https://rss.tecmundo.com.br/feed",
+      "filter": "IA|inteligência artificial|ChatGPT|OpenAI|Claude|Anthropic|Gemini|LLM|Copilot|DeepSeek"
+    },
+    {
+      "cat": "games",
+      "name": "Nintendo Life",
+      "url": "https://www.nintendolife.com/feeds/latest"
+    },
+    {
+      "cat": "games",
+      "name": "Eurogamer",
+      "url": "https://www.eurogamer.net/feed"
+    },
+    {
+      "cat": "games",
+      "name": "GameSpot",
+      "url": "https://www.gamespot.com/feeds/mashup/"
+    },
+    {
+      "cat": "games",
+      "name": "Tecmundo",
+      "url": "https://rss.tecmundo.com.br/feed",
+      "filter": "jogo|game|PlayStation|PS5|Xbox|Nintendo|Switch|Steam|GTA"
+    },
+    {
+      "cat": "games",
+      "name": "Polygon",
+      "url": "https://www.polygon.com/rss/index.xml"
+    },
+    {
+      "cat": "tec",
+      "name": "Tecmundo",
+      "url": "https://rss.tecmundo.com.br/feed"
+    },
+    {
+      "cat": "tec",
+      "name": "Canaltech",
+      "url": "https://canaltech.com.br/rss/"
+    },
+    {
+      "cat": "tec",
+      "name": "g1 Tecnologia",
+      "url": "https://g1.globo.com/rss/g1/tecnologia/"
+    },
+    {
+      "cat": "tec",
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index"
+    },
+    {
+      "cat": "mundo",
+      "name": "BBC Brasil",
+      "url": "https://feeds.bbci.co.uk/portuguese/rss.xml"
+    },
+    {
+      "cat": "mundo",
+      "name": "g1 Mundo",
+      "url": "https://g1.globo.com/rss/g1/mundo/"
+    },
+    {
+      "cat": "mundo",
+      "name": "BBC World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "cat": "mundo",
+      "name": "Folha Mundo",
+      "url": "https://feeds.folha.uol.com.br/mundo/rss091.xml"
+    },
+    {
+      "cat": "mundo",
+      "name": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/rss/internacional/feed.xml"
+    },
+    {
+      "cat": "mundo",
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/world/rss"
+    },
+    {
+      "cat": "brasil",
+      "name": "g1",
+      "url": "https://g1.globo.com/rss/g1/"
+    },
+    {
+      "cat": "brasil",
+      "name": "g1 Política",
+      "url": "https://g1.globo.com/rss/g1/politica/"
+    },
+    {
+      "cat": "brasil",
+      "name": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml"
+    },
+    {
+      "cat": "brasil",
+      "name": "Folha Poder",
+      "url": "https://feeds.folha.uol.com.br/poder/rss091.xml"
+    },
+    {
+      "cat": "brasil",
+      "name": "Poder360",
+      "url": "https://www.poder360.com.br/feed/"
+    },
+    {
+      "cat": "economia",
+      "name": "g1 Economia",
+      "url": "https://g1.globo.com/rss/g1/economia/"
+    },
+    {
+      "cat": "economia",
+      "name": "InfoMoney",
+      "url": "https://www.infomoney.com.br/feed/"
+    },
+    {
+      "cat": "ciencia",
+      "name": "g1 Ciência e Saúde",
+      "url": "https://g1.globo.com/rss/g1/ciencia-e-saude/"
+    },
+    {
+      "cat": "ciencia",
+      "name": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/rss/top/science.xml"
+    },
+    {
+      "cat": "esportes",
+      "name": "ge",
+      "url": "https://ge.globo.com/rss/ge/"
+    },
+    {
+      "cat": "esportes",
+      "name": "Folha Esporte",
+      "url": "https://feeds.folha.uol.com.br/esporte/rss091.xml"
+    },
+    {
+      "cat": "esportes",
+      "name": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/rss/esportes/feed.xml"
+    },
+    {
+      "cat": "cultura",
+      "name": "g1 Pop & Arte",
+      "url": "https://g1.globo.com/rss/g1/pop-arte/"
+    },
+    {
+      "cat": "cultura",
+      "name": "Folha Ilustrada",
+      "url": "https://feeds.folha.uol.com.br/ilustrada/rss091.xml"
+    },
+    {
+      "cat": "cultura",
+      "name": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/rss/cultura/feed.xml"
+    }
+  ]
+}
